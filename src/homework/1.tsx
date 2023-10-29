@@ -1,4 +1,8 @@
 import React, { useEffect, useRef } from 'react';
+type Props = {
+  children: React.ReactNode;
+  onContentEndVisible: () => void;
+};
 
 // Опишіть Props
 export function Observer({ children, onContentEndVisible }: Props) {
